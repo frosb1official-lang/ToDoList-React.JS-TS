@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Form } from "../components/Form/Form";
-import { Header } from "../components/Header/Header";
 import { ToDoList } from "../components/ToDoList/ToDoList";
 import { ToDo } from "../models/todo-item";
 import { Bounce, ToastContainer } from "react-toastify";
@@ -34,7 +33,6 @@ export const ToDoListPage = () => {
 
     return (
         <>
-            <Header />
             <Form createNewToDo={createNewToDo}/>
             <ToastContainer
                 position="top-right"
