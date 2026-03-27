@@ -5,7 +5,7 @@ interface componentProps {
     todos: ToDo[]
 }
 
-export const HomePage = ({ todos }: componentProps) => {
+export const ViewList = ({ todos }: componentProps) => {
     return(
         <div className="container">
             {
