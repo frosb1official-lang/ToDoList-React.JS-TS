@@ -3,7 +3,6 @@ import { Bounce, ToastContainer, toast } from 'react-toastify'
 import './ToDoListItem.scss'
 
 export const ToDoListItem = (props: { toDoItem: ToDo , updateToDo: Function, deleteToDo: Function }) => {
-    // const notify =() => toast("Wow so easy!")
 
     return (
         <li className="todo-list-item__wrapper">
